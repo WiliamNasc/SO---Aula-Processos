@@ -50,7 +50,8 @@ public class ProcController {
 		} catch (IOException e){
 			
 			String erro = e.getMessage();
-			JOptionPane.showMessageDialog(null, erro, "ERRO" , JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(null, erro, 
+					"ERRO" , JOptionPane.ERROR_MESSAGE);
 			e.printStackTrace();
 		}
 	}
